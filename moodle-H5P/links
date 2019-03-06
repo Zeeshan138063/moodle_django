@@ -1,0 +1,73 @@
+Configure PHP
+https://h5p.org/installation/configure-php
+
+
+Module ngx_http_core_module
+http://nginx.org/en/docs/http/ngx_http_core_module.html#client_max_body_size
+
+Interactive video maximum-upload size moodle
+https://h5p.org/node/321203
+
+Set up H5P for Moodle
+https://h5p.org/moodle
+
+
+https://docs.moodle.org/36/en/Site_security_settings#Maximum_uploaded_file_size
+https://docs.moodle.org/36/en/Administration_FAQ#Site_policies_and_settings
+
+setting in the moodle site block
+File upload size
+https://docs.moodle.org/36/en/File_upload_size
+
+
+How to restrict course upload size for teachers
+https://moodle.org/mod/forum/discuss.php?d=366408
+
+
+from our moodle site we can check 
+https://uavpilottraining.a3uav.com/courses/admin/settings.php?section=sitepolicies
+
+
+This specifies a maximum size that uploaded files can be throughout the whole site. This setting is limited by the PHP settings post_max_size and upload_max_filesize, as well as the Apache setting LimitRequestBody. In turn, maxbytes limits the range of sizes that can be chosen at course level or module level. If 'Server Limit' is chosen, the server maximum allowed by the server will be used.
+
+
+moodle h5p course creation
+https://h5p.org/moodle
+
+https://h5p.org/node/321203
+
+
+https://docs.moodle.org/36/en/File_upload_size#Upload_file_size_restrictions
+
+
+https://docs.moodle.org/36/en/File_upload_size
+
+Upload file sizes are restricted in a number of ways and each one in this list restricts the following ones:
+
+Server level
+Moodle site level
+Course level
+Activity level
+
+This is a contentious issue, mainly because you might think that it should be set inside the Moodle. Unfortunately, this is not so, these are environment issues that need to be set in the server and PHP folders, Moodle cannot work outside itself.
+
+
+
+
+
+Reply: 
+The moodle course upload limit does not apply to H5P Video interactive content,
+So the teacher can upload well beyond this limit.
+I have also attached the videos and image and files of different size >(max-size) to the 'Test Course' 
+that you have created for test purpose.
+Plugin is just responsible for creation of course not deal with the upload size limit.
+
+
+Upload file sizes are restricted in a number of ways.
+Server level
+Moodle site level
+Course level
+Activity level
+
+
+

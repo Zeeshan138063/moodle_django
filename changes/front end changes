@@ -1,0 +1,9 @@
+{#                <img src="/img/logo-outlined.svg" alt="A3 UAV Logo" width="100%" href="/" >#}
+
+
+setting.py
+'filename': '../logs/django/pilottraining.log',
+'filename': '../logs/django/request.log',
+
+
+

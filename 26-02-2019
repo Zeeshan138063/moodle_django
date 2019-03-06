@@ -1,0 +1,8 @@
+Task1: Clone  of django project and scp -r hassan@35.192.150.239:/vol/compressed_uavcas.zip  ~/Desktop/Project/Moodle/
+Tas2 : update www/a3.css
+Task3:update  uvacs/template/core/welcome.html 
+Task4:update  uvacs/template/courseinfo/main.html 
+Task5:update  uvacs/template/courseinfo/rec.html 
+Task6:update  uvacs/template/bar.html 
+Task7:update  uvacs/account/registration.py 
+Task 8: update uvacs/template/courseinfo/small.html 
